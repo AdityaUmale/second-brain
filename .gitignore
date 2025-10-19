@@ -1,0 +1,96 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cursor/
+.cursorignore
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Qdrant Vector Database (contains all your stored knowledge)
+qdrant_storage/
+
+# Screenshots & Captures (optional - uncomment if you want to exclude)
+# screenshots/
+# captures/
+
+# Environment variables & Secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+credentials.json
+
+# Logs
+*.log
+logs/
+
+# Jupyter Notebooks (if you add any)
+.ipynb_checkpoints/
+*.ipynb
+
+# Model cache (HuggingFace models cache locally)
+.cache/
+model_cache/
+
+# Flask
+instance/
+.webassets-cache
+flask_session/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Database files (if you add SQLite)
+*.db
+*.sqlite
+*.sqlite3
+

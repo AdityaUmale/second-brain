@@ -1,0 +1,27 @@
+# Core dependencies
+qdrant-client==1.7.0
+sentence-transformers==2.2.2
+
+# LangChain and LLM (updated versions)
+langchain==0.1.0
+langchain-community==0.0.13
+langchain-ollama==0.1.0
+langchain-huggingface==0.0.1
+
+# OCR and Screenshot
+pytesseract==0.3.10
+Pillow==10.1.0
+pyautogui==0.9.54
+
+# macOS Menu Bar App
+rumps==0.4.0
+
+# Web UI (instead of tkinter)
+flask==3.0.0
+flask-cors==4.0.0
+
+# Additional dependencies
+numpy==1.24.3
+torch==2.1.0
+transformers==4.35.0
+
